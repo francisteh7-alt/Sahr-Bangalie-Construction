@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banga Real Estate Investments | Home</title>
+    <meta name="description" content="Banga Real Estate Investments - Building quality homes with integrity. Serving Sierra Leoneans at home and abroad.">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="logo-text">
+                    Banga
+                    <span>Real Estate Investments</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="pages/services.html">Services</a></li>
+                <li><a href="pages/projects.html">Projects</a></li>
+                <li><a href="pages/history.html">History</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-badge">Integrity in Every Foundation</span>
+                <h1>Build Your <span class="highlight">Dream Home</span> With Us</h1>
+                <p>We provide honest, transparent, and professional real estate and construction services that enable Sierra Leoneans — especially those living abroad — to build quality homes with confidence, accountability, and peace of mind.</p>
+                <div class="hero-buttons">
+                    <a href="pages/contact.html" class="btn btn-primary">
+                        <i class="fas fa-phone"></i> Get In Touch
+                    </a>
+                    <a href="pages/projects.html" class="btn btn-outline">
+                        <i class="fas fa-images"></i> View Projects
+                    </a>
+                </div>
+            </div>
+            <div class="hero-images">
+                <div class="hero-img main">
+                    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&h=800&fit=crop" alt="Construction Site">
+                    <div class="overlay">
+                        <h3>Quality Construction</h3>
+                        <p>Building durable foundations</p>
+                    </div>
+                </div>
+                <div class="hero-img small">
+                    <img src="https://images.unsplash.com/photo-1541888946425-d81bb1924f95?w=400&h=300&fit=crop" alt="Modern House">
+                    <div class="overlay">
+                        <h3>Modern Design</h3>
+                        <p>Thoughtful architecture</p>
+                    </div>
+                </div>
+                <div class="hero-img small">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop" alt="Completed Home">
+                    <div class="overlay">
+                        <h3>Completed Homes</h3>
+                        <p>Ready for your family</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+        <div class="stats-container">
+            <div class="stat-item">
+                <span class="stat-number">9+</span>
+                <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">50+</span>
+                <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Client Satisfaction</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">24/7</span>
+                <span class="stat-label">Support Available</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Preview Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-images reveal">
+                <div class="about-img-main">
+                    <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&h=500&fit=crop" alt="About Us">
+                </div>
+                <div class="about-img-float">
+                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=300&h=300&fit=crop" alt="Team">
+                </div>
+            </div>
+            <div class="about-content reveal">
+                <span class="section-label">About Us</span>
+                <h2>Building Trust, <br>One Home at a Time</h2>
+                <p>We provide honest, transparent, and professional real estate and construction services that enable Sierra Leoneans — especially those living abroad — to build quality homes with confidence, accountability, and peace of mind.</p>
+                <p>Our aim is to deliver durable legacies. From solid foundations to thoughtful designs built for longevity, we ensure every project stands the test of time.</p>
+                <a href="pages/about.html" class="btn btn-primary" style="margin-top: 1rem;">
+                    <i class="fas fa-arrow-right"></i> Learn More About Us
+                </a>
+            </div> 
